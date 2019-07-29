@@ -30,10 +30,9 @@ my_function(12,3)
 def add_numbers(start,end):
     total=0
     for number in range(start,end+1):
-        print(number)
         total=total+number
     return(total)
-test1=add_numbers(1,100)
+test1=add_numbers(1000,5000)
 print(test1)
         
         
